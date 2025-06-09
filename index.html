@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/css/imports.css">
+    <title>Contato</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar" id="navbar">
+            <img src="src/image/logo-dark.png" alt="Logo" class="logo">
+
+            <ul class="nav_list">
+                <li class="nav-item"> <a href="#" class="nav-link">Início</a></li>
+                <li class="nav-item"> <a href="#" class="nav-link">Projetos</a></li>
+                <li class="nav-item"> <a href="#" class="nav-link active">Contato</a></li>
+                <li class="nav-item"> <a href="#" class="nav-link">Sobre</a></li>
+            </ul>
+
+            <a href="#" class="login-link">Contatar</a>
+        </nav>
+    </header>
+
+    <section class="page-title">
+        <h2>Contato</h2>
+        <h1>Nosso Contato</h1>
+        <p>
+            Tem um projeto em mente ou precisa de uma solução sob medida? Nossa equipe está pronta para ajudar você a dar o próximo passo com criatividade, agilidade e foco nos resultados. Vamos transformar sua ideia em realidade! 
+        </p>
+    </section>
+
+    <main class="main_container">
+        <section class="contacts_conatiner">
+            <h3>Entra em Contacto</h3>
+
+            <p>
+                Preencha o formulário e entraremos em contato o mais breve possível.
+            </p>
+
+            <div class="cards_container">
+                <a href="tel:+351916995148" target="_blank" class="contact-card phone">
+
+                    <div class="card-icon">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+
+                    <div class="card-infos">
+                        <p>Telefone</p>
+                        <span>
+                            (+351) 91 6995-148
+                        </span>
+                    </div>
+                </a>
+
+                <a href="" target="_blank" class="contact-card location">
+
+                    <div class="card-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    
+                    <div class="card-infos">
+                        <p>Localização</p>
+                        <span>
+                            Rua Exemplo, 123 - Bairro Exemplo, Cidade, País
+                        </span>
+                    </div>
+                </a>
+
+                <a href="mailto:email@gmail.com" target="_blank" class="contact-card email">
+
+                    <div class="card-icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    
+                    <div class="card-infos">
+                        <p>E-mail</p>
+                        <span>
+                            email@gmail.com
+                        </span>
+                    </div>
+                </a>
+
+                <a href="https://api.whatsapp.com/send?phone=" target="_blank" class="contact-card whatsapp">
+
+                    <div class="card-icon">
+                        <i class="fa-solid fa-whatsapp"></i>
+                    </div>
+                    
+                    <div class="card-infos">
+                        <p>WhatsApp</p>
+                        <span>
+                            (+351) 91 6995-148
+                        </span>
+                    </div>
+                </a>
+            </div>
+
+            <h4>
+                Siga-nos nas redes sociais
+            </h4>
+
+            <div class="social-media">
+
+                <a href="" class="icon-link twitter"> 
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+
+                <a href="" class="icon-link facebook"> 
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+
+                <a href="" class="icon-link linkedin"> 
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+
+                <a href="" class="icon-link instagram"> 
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+        </section>
+
+        <section class="contact_form_container">
+            <h3>Contatar</h3>
+            <form method="post">
+
+                <div class="input-group">
+                    <label for="name">
+                        Nome
+                    </label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="email">
+                        E-mail
+                    </label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="subject">
+                        Assunto
+                    </label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="subject">
+                        Mensagem
+                    </label>
+                    <textarea name="messege" id="messege" readonly rows="5"></textarea>
+                </div>
+
+                <button type="submit">
+                    Enviar messagem
+                </button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <img src="src/image/logo-light.png" alt="logo" class="footer-logo">
+
+        <div class="footer_link_content">
+            <ul class="footer-list">
+                <li>
+                    <h3 class="list-title">
+                        Blog
+                    </h3>
+                </li>
+                
+                <li>
+                    <a href="#" class="footer-link">
+                        Tecnologia
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">
+                        Programação
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">
+                        Design
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="footer-list">
+                <li>
+                    <h3 class="list-title">
+                        Produtos
+                    </h3>
+                </li>
+                
+                <li>
+                    <a href="#" class="footer-link">
+                        App
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">
+                        Desktop
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">
+                        Cloud
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

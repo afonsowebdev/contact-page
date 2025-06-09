@@ -1,0 +1,10 @@
+header {
+    .navbar {
+        background: linear-gradient(180deg, #f1effd, #e5e1fa);
+        
+        .logo {
+            width: 150px;
+            height: auto;
+        }
+    }
+}
